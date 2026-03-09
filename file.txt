@@ -27,3 +27,76 @@ step 6 branch and push
 
 	git branch -M main 
 	git push -u origin main
+
+
+---------------------------------------------------
+1. What is Forking?
+
+Forking means creating a copy of someone else's GitHub repository into your own GitHub account.
+
+git clone
+
+
+1. What is Branch Merging?
+
+A branch is like a separate copy of your project where you can work on new features without affecting the main code.
+
+main branch → stable code
+feature branch → new feature development
+
+feature → merge → main
+-->
+
+step 1Create new branch
+	git branch feature
+	git branch
+output
+	* main
+  	feature
+
+Step 2 Switch to feature branch
+
+	git checkout feature
+		or
+	git switch feature
+
+step 3 modifie file then add 
+
+	git add .
+git commit -m "Added new feature"
+
+4. Merge Branch
+
+	git checkout main
+
+5.Then merge feature branch:
+
+	git merge feature
+
+5. Check Commit History
+
+	git log
+
+6 delete branch (optional)
+	git branch -d feature
+
+
+git branch feature
+git checkout feature
+git add .
+git commit -m "feature added"
+git checkout main
+git merge feature
+
+
+
+
+
+
+
+
+
+
+
+
+
