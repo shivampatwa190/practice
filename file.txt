@@ -1,1 +1,29 @@
-hello world
+here are basic steps
+
+step 1 setup 
+
+	git config --global user.name "Your Name"
+	git config --global user.email "your@email.com"
+
+step 2  create project folder and initilize
+
+	git init
+
+step 3  add and commit
+
+	git add .
+	git commit -m "first commit"
+
+step 4 connect git with github 
+
+	go to github 
+	create new repo
+
+step 5 connect repo to git project 
+
+	git remote add origin https://github.com/username/repo.git
+
+step 6 branch and push 
+
+	git branch -M main 
+	git push -u origin main
